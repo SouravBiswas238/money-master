@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving-calculator</title>
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- My css file -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="saving-portfolio">
+        <div class="h1 text-uppercase text-center text-primary py-3 fw-bold">Saving-calculator</div>
+        <section class="container  pb-2">
+            <div class="row mb-3 calculator-body">
+                <!-- Left image part -->
+                <div class="col-lg-6 ">
+                    <img src="./img/img-5.jpg" class="img-fluid rounded my-image" alt="...">
+                </div>
+                <!-- Right calculation part -->
+                <div class="col-lg-6 bg-light ps-5 text-center">
+                    <h2 class="h2 my-4 fw-bold">Income</h2>
+                    <!-- Income total -->
+                    <div class="income-container">
+                        <div class="text-center">
+                            <span class="fs-4 ">Income: </span>
+                            <input type="text" name="" id="total-income">
+                        </div>
+
+                        <h2 class="h2 my-3 fw-bold">Expenses</h2>
+                        <div class="my-3">
+                            <span class="fs-4 mx-3">Food: </span>
+                            <input type="text" name="" id="food-cost">
+                        </div>
+                        <div class="my-3">
+                            <span class="fs-4 mx-3">Rent: </span>
+                            <input type="text" name="" id="rent-cost">
+                        </div>
+                        <div class="my-3">
+                            <span class="fs-4 mx-2">Clothes: </span>
+                            <input type="text" name="" id="clothes-cost">
+                        </div>
+                    </div>
+                    <button type="button" id="calculate-btn" class="btn btn-primary my-button my-3">Calculate</button>
+                    <h2 class="h2 my-2 fw-bold">Total Expenses: <span id="total-expense">00</span></h2>
+                    <h2 class="h2 my-2 fw-bold">Balence: <span id="balence">00</span></h2>
+                    <!-- Save percentence part -->
+                    <div class="d-flex save-box justify-content-center">
+                        <h5 class="my-auto mx-2">Save:</h5>
+                        <input type="text" class="my-3">
+                        <p class="my-auto mx-2 fs-3">%</p>
+                        <button type="button" class="btn btn-primary  my-3 px-5 fs-5">Save</button>
+                    </div>
+                    <!-- Saving amount part -->
+                    <h3 class="h2 my-3">Saving Amount: <span>00</span></h3>
+                    <h3 class="h2 my-2">Remaining Balence: <span>00</span></h3>
+                    <!-- Toast or error massege -->
+                    <div class="notify-section position-abslute">
+                        <p id="error-messege" class="notify" style="display: none;">❌ Please Enter a Number ❌
+                        </p>
+                        <p id="positive-messege" class="notify" style="display: none;">❌ Please Enter a Positive Number
+                            ❌
+                        </p>
+                        <p id="error-expense" class="notify" style="display: none;">❌ Khoros beshi hoye gace mama,
+                            Apni Dina Hoye gacen.
+                            ❌
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

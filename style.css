@@ -1,0 +1,34 @@
+/* My main css */
+
+.my-height{
+    height: 700px;
+}
+.my-image{
+    width: 100%;
+}
+.my-button{
+    width: 40%;
+    font-size: 1.5rem;
+}
+.save-box{
+    /* width: 100%; */
+
+}
+/* Error masssege  handling css */
+.notify {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #222436;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: none;
+}
+.notify-section{
+    width: 16%;
+    margin: 0 auto;
+    position: absolute;
+    top: 281px;
+    right: 7px;
+}
