@@ -44,12 +44,20 @@ function updateBalence(totalIncome) {
     }
 }
 // Decliaring click calculate function
+const totalIncome = document.getElementById('total-income');
+const balence = document.getElementById('balence');
+const foodText = document.getElementById('food-cost');
+const rentText = document.getElementById('rent-cost');
+const clothesText = document.getElementById('clothes-cost');
+
+function savingPersentence() {
+    const savePercent = parseInt(document.getElementById('savePercent').value);
+    const newTotalIncome = parseInt(totalIncome.value);
+    const newValue = newTotalIncome / savePercent;
+    document.getElementById('total-saving').innerText = newValue;
+    // console.log(totalIncome.value)
+}
 document.getElementById('calculate-btn').addEventListener('click', function () {
-    const totalIncome = document.getElementById('total-income');
-    const balence = document.getElementById('balence');
-    const foodText = document.getElementById('food-cost');
-    const rentText = document.getElementById('rent-cost');
-    const clothesText = document.getElementById('clothes-cost');
 
     let updateTotalcost = costValue(foodText.value, rentText.value, clothesText.value);
 
@@ -62,4 +70,4 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 
 
 
-})
+});
