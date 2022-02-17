@@ -45,7 +45,9 @@
                             <input type="text" name="" id="clothes-cost">
                         </div>
                     </div>
+                    <!-- Calculatye button -->
                     <button type="button" id="calculate-btn" class="btn btn-primary my-button my-3">Calculate</button>
+                    <!-- Total balence and ecpence part -->
                     <h2 class="h2 my-2 fw-bold">Total Expenses: <span id="total-expense">00</span></h2>
                     <h2 class="h2 my-2 fw-bold">Balence: <span id="balence">00</span></h2>
                     <!-- Save percentence part -->
@@ -58,7 +60,7 @@
                     </div>
                     <!-- Saving amount part -->
                     <h3 class="h2 my-3">Saving Amount: <span id="total-saving">00</span></h3>
-                    <h3 class="h2 my-2">Remaining Balence: <span>00</span></h3>
+                    <h3 class="h2 my-2">Remaining Balence: <span id="remaining-balence">00</span></h3>
                     <!-- Toast or error massege -->
                     <div class="notify-section position-abslute">
                         <p id="error-messege" class="notify" style="display: none;">❌ Please Enter a Number ❌
@@ -72,6 +74,19 @@
                         </p>
 
                     </div>
+                    <div class="float-end w-50">
+                        <p id="error-saving" class="notify" style="display: none;">❌ oh! Saving cannot possible.
+                            Enter valid Input
+                            ❌
+                        </p>
+                        <p id="error-balence" class="notify" style="display: none;">❌ oh! Saving cannot possible.
+                            Mama balence low
+                            ❌
+                        </p>
+                    </div>
+                    <button type="button" id="reset-btn"
+                        class="btn btn-secondary m-3 ms-5 px-5 fs-4 float-start">Reset</button>
+
 
                 </div>
 
