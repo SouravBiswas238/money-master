@@ -114,6 +114,8 @@ document.getElementById('reset-btn').addEventListener('click', function () {
     document.getElementById('error-messege').style.display = "none";
     document.getElementById('error-balence').style.display = "none";
     document.getElementById('error-saving').style.display = "none";
+    document.getElementById('error-expense').style.display = "none";
+
 
 
 

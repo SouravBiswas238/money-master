@@ -25,32 +25,39 @@
     padding: 5px 20px;
     display: none;
 }
+
 .notify-section{
-    width: 16%;
+    width: 54%;
     margin: 0 auto;
     position: absolute;
-    top: 281px;
+    top: 35px;
     right: 7px;
 }
-@media screen and (max-width: 409px) {
+.income-container{
+    position: relative;
+}
+/* medea quary for responsve */
+@media screen and (max-width: 609px) {
+   
+    .notify-section {
+        right: 7px;
+        width: 78%;
+        position: absolute;
+        top: 0;
+    }
     .notify {
         color: rgb(0, 0, 0);
         text-align: center;
         margin: 0 auto;
-        background: #2224362c;
+        background: #6d6b6ba6;
         margin-top: 5px;
         border-radius: 15px;
         padding: 5px 20px;
         display: none;
     }
-    .notify-section {
+ 
+    .my-button{
         width: 100%;
-        margin: 0 auto;
-        position: absolute;
-        top: 840px;
-        right: 7px;
-    }
-    #calculate-btn{
-        margin-top: 88px !important;
+        font-size: 1.5rem;
     }
 }
