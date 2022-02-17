@@ -32,3 +32,25 @@
     top: 281px;
     right: 7px;
 }
+@media screen and (max-width: 409px) {
+    .notify {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin: 0 auto;
+        background: #2224362c;
+        margin-top: 5px;
+        border-radius: 15px;
+        padding: 5px 20px;
+        display: none;
+    }
+    .notify-section {
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: 840px;
+        right: 7px;
+    }
+    #calculate-btn{
+        margin-top: 88px !important;
+    }
+}

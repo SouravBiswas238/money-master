@@ -112,6 +112,7 @@ document.getElementById('reset-btn').addEventListener('click', function () {
     balence.innerText = 0;
     document.getElementById('positive-messege').style.display = "none";
     document.getElementById('error-messege').style.display = "none";
+    document.getElementById('error-balence').style.display = "none";
     document.getElementById('error-saving').style.display = "none";
 
 
