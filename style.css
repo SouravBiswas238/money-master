@@ -1,5 +1,4 @@
 /* My main css */
-
 .my-height{
     height: 700px;
 }
@@ -9,10 +8,6 @@
 .my-button{
     width: 40%;
     font-size: 1.5rem;
-}
-.save-box{
-    /* width: 100%; */
-
 }
 /* Error masssege  handling css */
 .notify {
@@ -25,7 +20,6 @@
     padding: 5px 20px;
     display: none;
 }
-
 .notify-section{
     width: 54%;
     margin: 0 auto;
@@ -38,7 +32,6 @@
 }
 /* medea quary for responsve */
 @media screen and (max-width: 609px) {
-   
     .notify-section {
         right: 7px;
         width: 78%;
@@ -55,7 +48,6 @@
         padding: 5px 20px;
         display: none;
     }
- 
     .my-button{
         width: 100%;
         font-size: 1.5rem;
